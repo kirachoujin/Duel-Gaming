@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background: #000;
+	font-family: sans-serif;
+}
+h1 {
+	text-align: center;
+	color: #fff;
+}
+a {
+	width: 100%;
+	max-width: 600px;
+	background: radial-gradient(red, orange);
+	padding: 20px;
+	font-size: 26px;
+	display: block;
+	margin: 5px auto;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	background: radial-gradient(orange, red);
+}
